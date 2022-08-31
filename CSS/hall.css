@@ -1,0 +1,46 @@
+.main{
+    background-image: url(/HTML/images/hall.jpg);
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+    
+}
+.top{
+    font-style: italic;
+    margin-left: 30px;
+    color:white;
+    font-size: 30px;
+}
+.first{
+    margin-left: 600px;
+    word-spacing: 20px;
+    color: white;
+}
+.third{
+    text-align: center;
+    color: azure;
+    margin-top: 13rem;
+    font-size: 30px;
+}
+.fourth{
+    text-align: center;
+    color: aquamarine;
+    font-size: 20px;
+}
+button{
+    width: 200PX;
+    margin-top: 5rem;
+    border-radius:25PX ;
+    padding: 15px;
+    font-weight:bold ;
+    border: 2px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid#009688;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button:hover{
+    border: none;
+ }

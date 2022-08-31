@@ -1,0 +1,44 @@
+.main{
+    height: 690px;
+    width: 980px;
+    background-color:white;
+    margin: auto;
+    margin-top: 10rem;
+}
+.header{
+    height: 140px;
+    width: 980px;
+    text-align: center;
+    font-size: 80px;
+    color:white;
+    font-style: bold;
+    background-color:green;
+}
+.slider{
+    height: 450px;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+    background-color:green;
+    font-size: 80px;
+    color:white;
+
+}
+.content{
+      height:450px;
+      width: 690px;
+      background-color: green;
+      position: absolute;
+      left: 1079px;
+      top: 315px;
+      color:white;
+}
+.footer{
+    height: 70px;
+    width: 980px;
+    margin-top: 15px;
+    background-color: green;
+    font-size: 60px;
+    text-align: center;
+    color:white;
+}

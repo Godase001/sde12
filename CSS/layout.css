@@ -1,0 +1,45 @@
+.main{
+    height: 1024px;
+    width: 750px;
+    background-color: blue;
+    margin: auto;
+}
+.header{
+    height: 150px;
+    width: 750px;
+    background-color: orangered;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+}
+.socialmedia{
+    height: 75px;
+    width:600px ;
+    background-color: brown;
+    position: absolute;
+    top: 8px;
+    left: 405px;
+}
+.menu{
+    height: 75px;
+    width: 600px;
+    background-color: yellow;
+    position: absolute;
+    top: 83px;
+    left: 406px;
+}
+
+
+
+.container{
+    height: 824px;
+    width: 750px;
+    background-color:green ;
+}
+.footer{
+    height: 50px;
+    width: 750px;
+    background-color: yellow;
+}

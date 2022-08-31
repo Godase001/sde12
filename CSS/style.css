@@ -1,0 +1,48 @@
+.main{
+ background-image: url(/HTML/images/home.jpg);
+ height: 800px;
+ width: 1200px;
+}
+
+ .d{
+    font-style: italic;
+    margin: 100px;
+    font-size: 30px;
+    color: white;
+ }
+.side{
+    margin-left: 380px;
+    word-spacing:20px ;
+    color: white;
+}
+.second{
+    text-align: center;
+    color: white;
+    margin-top: 15rem;
+    margin-bottom:15px;
+    font-size: 25px;
+}
+ .m{
+    text-align:center;
+    color: azure;
+    margin-bottom:40px ;
+ }  
+ button{
+    width: 180px;
+    padding: 15px ;
+    border-radius:25px ;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ button:hover{
+    border: none;
+ }
+ 
+
+

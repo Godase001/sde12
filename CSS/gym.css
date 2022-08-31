@@ -1,0 +1,93 @@
+.main{
+    background-image: url(/HTML/images/gym.jpg);
+    height: 800px;
+    width: 900px;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+   a{
+    color: aliceblue;
+    text-decoration: none;
+
+   } 
+.fa-dumbbell{
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    top: 12px;
+    padding-left: 100px;
+
+
+}
+a:hover{
+    color: red;
+}
+.and{
+    color: red;
+    
+}
+   .middle{
+    text-decoration: underline;
+   }
+
+.top{
+    font-size: 30px;
+    color: red;
+    margin-left: 130px;
+    margin-bottom: 30px;
+
+    
+
+}
+.first{
+    margin-left: 350px;
+    word-spacing: 20px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+
+    }
+.second{
+    font-size: 30px;
+    color: antiquewhite;
+    margin-top: 150px;
+}
+.third{
+    color: wheat;
+
+}
+.fa-square-phone{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 408px;
+    left: 330px;
+    z-index: 1;
+
+
+    
+    
+
+
+}
+button{
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    background: transparent;
+    overflow: hidden;
+    border-radius: 2px solid red;
+    background-color: red;
+
+}
+
+button:hover{
+    border: none;
+}
