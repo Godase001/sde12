@@ -103,7 +103,7 @@ section p{
 section .img{
     width: 80%;
     height: 580px;
-    background: url(/HTML/images/img5.webp);
+    background: url(images/img5.webp);
     background-size: cover;
     margin: auto;
 }
