@@ -1,0 +1,20 @@
+thead{
+    background-color: rgb(83, 83, 111);
+}
+tbody{
+    background-color: rgb(17, 103, 177);
+}
+tfoot{
+    background-color: green;
+    text-align: center;
+}
+caption
+{
+    background-color: chartreuse;
+    font-size: 30px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    outline: orangered dotted 5px;
+}

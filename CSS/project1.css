@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    height: 1000px;
+}
+header{
+    width: 100%;
+    height:55px;
+    background: rgb(5,5,165);
+    float: left;
+}
+header .menu{
+    width: 80%;
+    height:55px;
+    margin: auto;
+    padding: 0 15px;
+    
+}
+header .menu .brand-name{
+    width: 30%;
+    float: left;
+}
+header .menu .brand-name a{
+    text-decoration: none;
+}
+header .menu .brand-name h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+header .menu nav{
+    width: 65%;
+    float: left;
+}
+header .menu nav ul{
+    list-style: none;}
+
+header .menu nav ul li{
+    float: left;
+    width: 130px;
+    margin-top: 8px;
+    
+}
+
+    
+ul li ul.dropdown{
+    width: 150px;
+    display: none;
+    position: absolute;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown li:hover{
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+color: white;
+}
+
+
+
+
+
+header .menu nav ul li:hover a{
+    color: #00bcd4;
+}
+header .menu nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    }
+header .menu nav ul li:hover{
+    border: none;
+    border-bottom: 3px solid red;
+}
+ body::-webkit-scrollbar{
+    width: 9px;
+    background: black;
+    }
+    body::-webkit-scrollbar-thumb{
+        background: yellowgreen;
+    }
+section{
+    width: 100%;
+    float: left;
+}
+section p{
+    width: px;
+    text-align: justify;
+}
+section .img{
+    width: 80%;
+    height: 580px;
+    background: url(/HTML/images/img5.webp);
+    background-size: cover;
+    margin: auto;
+}
+section .bg-box{
+    width: 100%;
+    height: 45%;
+    background: rgb(0,0,0,0.3);
+    text-align: center;
+    padding: 160px 0;
+    margin: auto;
+}
+section .bg-box h1{
+    background: rgb(11,123,35);
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    margin: auto;
+}
+section .bg-box h2{
+    background: orangered;
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+section .text{
+    font-size: 35px;
+    text-transform: uppercase;
+    background: orangered;
+    color: white;
+    width: 50%;
+    padding: 0 5px;
+    margin-left: 127px;
+
+}
+ .par{
+    margin-left: 127px;
+    width: 80%;
+    font-size: 19px;
+}
+ section .text2{
+    background: orangered;
+    color: white;
+    height: 35px;
+    width: 170px;
+    font-size: 30px;
+}
+.line{
+   list-style: none;
+}
+    
