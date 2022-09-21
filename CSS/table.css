@@ -1,8 +1,10 @@
 thead{
     background-color: rgb(83, 83, 111);
+    color: azure;
 }
 tbody{
     background-color: rgb(17, 103, 177);
+    
 }
 tfoot{
     background-color: green;

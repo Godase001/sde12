@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    height: 1000px;
+    background: rgb(54, 23, 23);
+}
+header{
+    width: 100%;
+    height: 55px;
+    background: black;
+    float: left;
+
+}
+header .menu{
+    width: 100%;
+    height: 55px;
+    margin: auto;
+    padding: 0 15px;
+}
+header .menu .brand{
+    width: 30%;
+    float: left;
+}
+header .menu .brand a{
+      text-decoration: none;
+}
+header .menu .brand h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: goldenrod;
+    margin-top: 10px;
+}
+header .menu nav{
+    width: 65%;
+    float: left;
+}
+header .menu nav ul{
+    list-style: none;
+}
+header .menu nav ul li{
+    float: left;
+    width: 130px;
+    margin-top: 15px;
+}
+header .menu nav ul li:hover a{
+    color: white;
+}
+header .menu nav ul li a{
+    color: rgb(243, 221, 221);
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+  
+}
+header .menu nav ul li:hover{
+    border: none;
+    border-bottom: 3px solid rgb(234, 225, 225);
+}
+ul li .dropdown{
+    width: 150px;
+    display: none;
+    position: absolute;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul .dropdown li{
+    display: block;
+}
+ul li ul .dropdown li:hover{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(100, 17, 17);
+    color: black;
+}
+section .img{
+    width: 100%;
+    height: 600px;
+    background: url(/HTML/images/cricket.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.form{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(to top,rgba(231, 215, 215, 0.8)50%,rgba(228, 205, 205, 0.8)50%);
+    position: absolute;
+    left: 950px; 
+    border-radius: 10px;
+    top: 550px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: orangered;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        font-size: 20px;
+        
+    }
+    .form h2{
+    text-align: center;
+    background:black;
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+    border-radius: 5px;
+    color: beige;
+    }
+    .limk{
+      width: -100px;
+      height: 1px;
+      color: white;
+    }
+    .bt{
+        width: 140px;
+        height: 40px;
+        background: orangered;
+        border: 2px solid gray;
+        font-size: 15px;
+    }
+    .liw{
+        width: 100px;
+        height: 30px;
+        background: gray;
+        border: 2px solid orangered;
+        color: azure;
+        text-align: center;
+        
+    }
+
+section .frm{
+    color:orangered;
+    top: 80px;
+    margin-left: 30px;
+}
+section .pic{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 5px;
+}
+footer .img2{
+    position: absolute;
+}
+footer h3{
+    width: 200px;
+    font-size: 30px;
+    background: gray;
+    position: absolute;
+    top: -45px;
+    left: px;
+    text-align: center;
+}
+footer .img3{
+   position: absolute;
+   top: 652px;
+   bottom: 20px;
+   left: 240px;
+
+}
+footer h2{
+    width: 200px;
+    font-size: 30px;
+    top: -42px;
+    text-align: center;
+    background: aqua;
+    position: absolute;
+}
+footer p{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 100px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+}
+ footer .fa-facebook{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 140px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+
+}
+footer .fa-square-twitter{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 180px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+
+}
+footer .fa-whatsapp{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 225px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+}
+footer .fa-solid{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 270px;
+   height: 45px;
+   width: 50px;
+   background:black;
+   cursor: pointer;
+   text-align: center;
+}
+footer .fa-snapchat{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 310px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+}
+footer .fa-google{
+
+    font-size: 30px;
+    color: red;
+    position: absolute;
+   bottom: -400px;
+   left: 350px;
+   height: 45px;
+   width: 50px;
+   background: black;
+   cursor: pointer;
+   text-align: center;
+   
+}
+footer .cn{
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4 ease;
+}
+ footer .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;}
+    
+   footer .cn:hover{
+        background-color: bisque;}
+
+i:hover{
+    color: white;
+}
+
+
+
+
+
+
+

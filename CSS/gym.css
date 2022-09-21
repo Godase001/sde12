@@ -1,5 +1,5 @@
 .main{
-    background-image: url(/HTML/images/gym.jpg);
+    background-image: url(images/gym.jpg);
     height: 800px;
     width: 900px;
     background-repeat: no-repeat;
@@ -29,6 +29,7 @@ a:hover{
 }
    .middle{
     text-decoration: underline;
+
    }
 
 .top{
@@ -48,14 +49,14 @@ a:hover{
     top: 10px;
 
     }
-.second{
-    font-size: 30px;
+.second{ font-size: 30px;
     color: antiquewhite;
-    margin-top: 150px;
-}
+    margin-top: 150px;}
+
 .third{
     color: wheat;
-
+    position: absolute;
+top: 250px;
 }
 .fa-square-phone{
     font-size: 30px;

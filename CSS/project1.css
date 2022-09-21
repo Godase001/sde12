@@ -7,6 +7,7 @@ body{
     height: 100%;
     font-family: sans-serif;
     height: 1000px;
+
 }
 header{
     width: 100%;
@@ -73,6 +74,7 @@ color: white;
 
 header .menu nav ul li:hover a{
     color: #00bcd4;
+    color: white;
 }
 header .menu nav ul li a{
     color: white;
@@ -92,6 +94,7 @@ header .menu nav ul li:hover{
     body::-webkit-scrollbar-thumb{
         background: yellowgreen;
     }
+
 section{
     width: 100%;
     float: left;
