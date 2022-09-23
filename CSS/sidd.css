@@ -89,12 +89,12 @@ section .img{
 
 .form{
     width: 300px;
-    height: 450px;
-    background: linear-gradient(to top,rgba(231, 215, 215, 0.8)50%,rgba(228, 205, 205, 0.8)50%);
+    height: 410px;
+    background: linear-gradient(to top,rgba(21, 19, 19, 0.8)50%,rgba(15, 14, 14, 0.8)50%);
     position: absolute;
-    left: 950px; 
+    left: 460px; 
     border-radius: 10px;
-    top: 550px;
+    top: 580px;
     }
     .btn{
         width: 100px;
@@ -105,6 +105,15 @@ section .img{
         font-size: 20px;
         
     }
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn:hover{
+        background-color: white;
+    }
+   
+    
     .form h2{
     text-align: center;
     background:black;
@@ -124,7 +133,14 @@ section .img{
         height: 40px;
         background: orangered;
         border: 2px solid gray;
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .bt a{
+        text-decoration: none;
+        color: rgb(111, 66, 12);
+    }
+    .bt:hover{
+        background-color: springgreen;
     }
     .liw{
         width: 100px;
@@ -137,9 +153,13 @@ section .img{
     }
 
 section .frm{
-    color:orangered;
+    color:rgb(232, 208, 199);
     top: 80px;
-    margin-left: 30px;
+    margin-left: 100px;
+    width: 300px;
+}
+section .frm h2:hover{
+    background-color: rgb(14, 147, 41);
 }
 section .pic{
     width: 200px;
@@ -149,15 +169,20 @@ section .pic{
 }
 footer .img2{
     position: absolute;
+   
 }
+
 footer h3{
     width: 200px;
     font-size: 30px;
-    background: gray;
+    background: orangered;
     position: absolute;
     top: -45px;
     left: px;
     text-align: center;
+}
+footer h3:hover{
+    background-color: white;
 }
 footer .img3{
    position: absolute;
@@ -166,13 +191,33 @@ footer .img3{
    left: 240px;
 
 }
+.img4{
+    position: absolute;
+    left: 800px;
+    bottom: -100;
+    top: 660px;
+}
+footer h4{
+    width: 400px;
+    background: orangered;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: -45px;
+}
+footer h4:hover{
+    background-color: white;
+}
 footer h2{
     width: 200px;
     font-size: 30px;
     top: -42px;
     text-align: center;
-    background: aqua;
+    background: orangered;
     position: absolute;
+}
+footer h2:hover{
+    background-color: bisque;
 }
 footer p{
     font-size: 30px;
@@ -263,13 +308,13 @@ footer .fa-google{
    
 }
 footer .cn{
-    width: 160px;
+    width: 150px;
     height: 40px;
     background: orangered;
     border: none;
     position: absolute;
-    left: 200px;
-    bottom: 10px;
+    left: 170px;
+    bottom: 5px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -278,17 +323,141 @@ footer .cn{
  footer .cn a{
     text-decoration: none;
     color: black;
-    transition: .3s ease;}
+    transition: 0.3s ease;}
     
    footer .cn:hover{
         background-color: bisque;}
-
+footer .cm{
+    width: 150px;
+    height: 40px;
+    background: gray;
+    border: none;
+    position: absolute;
+    left: 010px;
+    bottom: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+transition: 0.4 ease;
+}
+footer .cm a{
+    text-decoration: none;
+    color: black;
+    transition:0.3s ease;
+}
+footer .cm:hover{
+    background-color: white;
+}
+footer .cp{
+    width: 150px;
+    height: 40px;
+    background: goldenrod;
+    border: none;
+    position: absolute;
+    left: 330px;
+    bottom: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+footer .cp a{
+    text-decoration: none;
+    color: black;
+}
+footer .cp:hover{
+    background-color: white;
+}
 i:hover{
     color: white;
 }
-
-
-
+.cd{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    background: aqua;
+    left: 30px;
+    top: -25px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.cd a{
+    text-decoration: none;
+    color: firebrick;
+}
+.cd:hover{
+    background: white;
+}
+.cmm{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 700px;
+    bottom: 5px;
+    background: rgb(111, 66, 12);
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.cmm a{
+    text-decoration: none;
+    color: black;
+}
+.cmm:hover{
+    background-color: rgb(234, 225, 225);
+}
+.cmmm{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 880px;
+    bottom: 5px;
+    background: white;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+}
+.cmmm a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.cmmm:hover{
+    background-color: black;
+}
+.cmmmm{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 1060px;
+    bottom: 5px;
+    background: palevioletred;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.cmmmm a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.cmmmm:hover{
+    background-color: black;
+}
+thead{
+    background: rgb(0, 55, 128);
+    color: black;
+}
+thead:hover{
+    background-color: rgb(255, 0, 68);
+}
+tbody{
+    background: rgb(0, 255, 200);
+    color: black;
+    border-collapse: collapse;
+}
+tbody:hover{
+    background-color: rgb(122, 128, 0);
+}
 
 
 

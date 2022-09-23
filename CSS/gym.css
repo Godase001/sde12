@@ -1,6 +1,6 @@
 .main{
     background-image: url(images/gym.jpg);
-    height: 800px;
+    height: 650px;
     width: 900px;
     background-repeat: no-repeat;
     margin: auto;
@@ -60,16 +60,11 @@ top: 250px;
 }
 .fa-square-phone{
     font-size: 30px;
-    color: white;
+    color: black;
     position: absolute;
     top: 408px;
     left: 330px;
     z-index: 1;
-
-
-    
-    
-
 
 }
 button{
@@ -86,9 +81,32 @@ button{
     overflow: hidden;
     border-radius: 2px solid red;
     background-color: red;
+    border: none;
 
 }
 
 button:hover{
     border: none;
+    background-color: beige;
+}
+.cd{
+    position: absolute;
+    top: 460px;
+    left: 350px;
+    color: white;
+    width: 170px;
+    background: black;
+    font-size: 20px;
+}
+.cd i:hover{
+    background-color: red;
+}
+.cb{
+    position: absolute;
+    right: 180px;
+    width: 140px;
+    top: -32px;
+}
+.cb:hover{
+    background-color: gray;
 }
