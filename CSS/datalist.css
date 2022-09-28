@@ -1,0 +1,60 @@
+ 
+ 
+ 
+ .main{
+    background-image: url(images/ref.jpg);
+opacity: 0.9;
+width: 700px;
+height: 500px;
+margin: auto;
+   
+ }
+ .one{
+    height: 300px;
+    width: 300px;
+  margin-left: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+   
+}
+.one h2:hover{
+    transform: scale(1.2);
+    color: orangered;
+}
+.one img{
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    left: 410px;
+    top: 80px;
+}
+.one img:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+ 
+.two{
+    height: 300px;
+    width: 300px;
+    background-color:;
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+    text-align: center;
+}
+.two h2:hover{
+    transform: scale(1.2);
+    color: orange;
+}
+.two img{
+    position: absolute;
+    height: 20px;
+    height: 60px;
+    left: 80px;
+    top:50px
+}
+.two img:hover{
+   transform: scale(1.2);
+}

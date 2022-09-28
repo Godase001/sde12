@@ -1,0 +1,60 @@
+  *{
+    margin: 0;padding: 0;
+  }
+  .main{
+   background-image: url(images/home3.jpg); 
+   height: 700px;
+   width: 1150px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: auto;
+  
+}
+.one{
+    margin-left: 500px;
+    word-spacing: 50px;
+
+}
+.one a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.one a:hover{
+    color: red;
+}
+.two{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    color: white;
+    font-size: 30px;
+    color:cyan;
+}
+.two:hover{
+    color: red;
+}
+.three{
+    position: absolute;
+    left: 350px;
+    top: 300px;
+    color: white;
+}
+.three h3{
+    position: absolute;
+    left: 80px;
+}
+button{
+    width: 160px;
+    height: 45px;
+    border:2px solid gray;
+    border-radius: 30px;
+    margin-top: 350px;
+    color: white;
+    background: transparent;
+    overflow: hidden;
+    cursor: pointer;
+}
+button:hover{
+  background-color: aqua;
+}

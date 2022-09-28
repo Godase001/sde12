@@ -1,0 +1,69 @@
+main{
+    height: 800px;
+    width: 800px;;
+    background-color: black;
+    margin: auto;
+}
+header{
+    width: 800px;height: 100px;
+    background-color: gray;
+}
+section{
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    float: left;
+}
+aside{
+    width: 400px;
+    height: 600px;
+    background-color: orangered;
+    float:right;
+}
+article{
+    width: 400px;
+    height: 300px;
+    background-color: turquoise;
+    float: right;
+}
+footer{
+    width: 800px;
+    height: 100px;
+    background-color: darkmagenta;
+    float: left;
+}
+.one{
+    color: white;
+}
+.one:hover{
+    color: red;
+    text-decoration: underline;
+}
+.two{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.two:hover{
+    color: chartreuse;
+}
+.three{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.three:hover{
+    color: rgb(26, 64, 178);
+}
+.four{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.four:hover{
+    color: orangered;
+}
+.five{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.five:hover{
+    color:darkorange ;
+}
