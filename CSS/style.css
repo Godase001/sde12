@@ -2,18 +2,21 @@
  background-image: url(/HTML/images/home.jpg);
  height: 800px;
  width: 1200px;
+
 }
 
  .d{
     font-style: italic;
     margin: 100px;
     font-size: 30px;
-    color: white;
+    color: rgb(234, 23, 23);
+    
  }
 .side{
     margin-left: 380px;
     word-spacing:20px ;
     color: white;
+    
 }
 .second{
     text-align: center;
@@ -42,6 +45,18 @@
  
  button:hover{
     border: none;
+    transform: scale(1.2);
+    background-color: gray;
+ }
+ a{
+   color: rgb(18, 21, 21);
+   text-decoration: none;
+  
+ }
+ a:hover{
+   color: red;
+   transform: scale(1.2);
+  
  }
  
 

@@ -1,0 +1,41 @@
+.flex-container{
+    height: 50vh;
+    border: 2px solid green;
+    display: contents;
+  
+   
+   
+}
+.flex-itam{
+    background-color: orangered;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 2px;
+    /* height: 50px; */
+    text-align: center;
+}
+.item-1{
+    background-color: orange;
+
+}
+.item-2{
+    background-color: yellow;
+}
+.item-3{
+    background-color: green;
+}
+.item-4{
+    background-color: pink;
+}
+.item-5{
+    background-color: navy;
+}
+.item-6{
+    background-color: aquamarine;
+}
+.item-7{
+    background-color: brown;
+}
+.item-8{
+    background-color: violet;
+}

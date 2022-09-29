@@ -3,6 +3,8 @@
     height: 800px;
     width: 1200px;
     margin: auto;
+    background-size: cover;
+   
     
 }
 .top{
@@ -11,16 +13,40 @@
     color:white;
     font-size: 30px;
 }
+.top:hover{
+    color: green;
+    background-color: orangered;
+    cursor: progress;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a:hover{
+    color: orangered;
+    background-color: yellow;
+    transform: scale(1.2);
+}
 .first{
     margin-left: 600px;
     word-spacing: 20px;
     color: white;
+   ;
 }
 .third{
     text-align: center;
     color: azure;
     margin-top: 13rem;
     font-size: 30px;
+    width: 400px;
+    margin-left:350px;
+}
+.third:hover{
+    color: red;
+    background-color: gold;
+    transform: scale(1.2);
 }
 .fourth{
     text-align: center;
@@ -43,4 +69,6 @@ button{
 }
 button:hover{
     border: none;
+    background-color: yellowgreen;
+    transform: scale(1.2);
  }
